@@ -19,3 +19,15 @@ ORDER BY FirstName asc, LastName desc;
 SELECT TOP 10 ProductID, ListPrice
 FROM production.Product
 ORDER BY ListPrice desc;
+
+--DESAFIO 2
+-- primeira maneira
+SELECT Name, ProductNumber
+FROM production.Product
+WHERE ProductID >= 1 and ProductID <= 4
+ORDER BY ProductID asc;
+
+-- segunda maneira
+SELECT TOP 4 Name, ProductNumber
+FROM production.Product
+ORDER BY ProductID asc;
