@@ -1,0 +1,8 @@
+CREATE TABLE Fruta (
+Id INT NOT NULL,
+Nome VARCHAR(100) NOT NULL
+)
+
+INSERT INTO Fruta(Id, Nome)
+VALUES
+(2, 'Maçã')
