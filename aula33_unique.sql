@@ -1,0 +1,14 @@
+CREATE TABLE Pessoa (
+Id INT PRIMARY KEY,
+Nome VARCHAR(255) NOT NULL,
+Cpf CHAR(11) NOT NULL UNIQUE
+)
+
+INSERT INTO Pessoa
+VALUES
+(1, 'Marielly', 1111111),
+(2, 'Marielle', 1111111)
+
+INSERT INTO Pessoa
+VALUES
+(1, 'Marielly', 1111111)
